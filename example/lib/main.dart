@@ -63,7 +63,7 @@ class HomeScreen extends StatelessWidget {
                         child: Text('BLE Peripheral View'),
                       ),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.black,
+                        backgroundColor: Colors.black,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
@@ -98,7 +98,7 @@ class HomeScreen extends StatelessWidget {
                         child: Text('BLE Central View      '),
                       ),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.black,
+                        backgroundColor: Colors.black,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
